@@ -1,6 +1,7 @@
 #!groovy
 
 pipeline {
+    agent any
 
     environment {
         IMAGE_NAME = "macnaer/todoai"
